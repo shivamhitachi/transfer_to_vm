@@ -1,0 +1,706 @@
+{
+    "nodes": {
+        "LOC_DOCK_126": {
+            "x": -432.22,
+            "y": 492.54
+        },
+        "STA_OP250": {
+            "x": -467.6,
+            "y": 511.0
+        },
+        "SPUR_MANUAL_UNL": {
+            "x": -448.84,
+            "y": 515.71
+        },
+        "CMC_INBOUND": {
+            "x": -482.09,
+            "y": 604.81
+        },
+        "SPUR_BUF_S1": {
+            "x": -448.84,
+            "y": 505.0
+        },
+        "STA_OP290": {
+            "x": -453.71,
+            "y": 511.0
+        },
+        "AISLE_LOC_K2K3": {
+            "x": -374.53,
+            "y": 531.55
+        },
+        "STA_OP130": {
+            "x": -499.015,
+            "y": 511.0
+        },
+        "STA_OP280": {
+            "x": -456.76,
+            "y": 511.0
+        },
+        "SPUR_DEC_1": {
+            "x": -448.84,
+            "y": 519.49
+        },
+        "STA_OP100": {
+            "x": -503.49,
+            "y": 511.0
+        },
+        "STA_OP170": {
+            "x": -486.77,
+            "y": 511.0
+        },
+        "STA_OP410": {
+            "x": -448.84,
+            "y": 508.16
+        },
+        "STA_OP180": {
+            "x": -482.7,
+            "y": 511.0
+        },
+        "STG_U3": {
+            "x": -398.59,
+            "y": 589.87
+        },
+        "BAA_REPACK": {
+            "x": -502.5,
+            "y": 565.31
+        },
+        "LOC_DOCK_BAAE": {
+            "x": -401.51,
+            "y": 492.54
+        },
+        "STG_V3": {
+            "x": -393.98,
+            "y": 546.28
+        },
+        "STA_OP160": {
+            "x": -489.95,
+            "y": 511.0
+        },
+        "STA_OP095": {
+            "x": -505.5,
+            "y": 511.0
+        },
+        "STG_E4": {
+            "x": -520.56,
+            "y": 622.05
+        },
+        "AISLE_LOC_STD": {
+            "x": -450.0,
+            "y": 550.0
+        },
+        "STG_Y3": {
+            "x": -382.27,
+            "y": 588.74
+        },
+        "STA_OP090": {
+            "x": -508.0,
+            "y": 511.0
+        },
+        "SPUR_ROBOT_UNL": {
+            "x": -446.37,
+            "y": 512.92
+        },
+        "BAA_EMPTIES": {
+            "x": -408.45,
+            "y": 492.54
+        },
+        "STA_OP270": {
+            "x": -461.31,
+            "y": 511.0
+        },
+        "SPUR_ROBOT_VIS": {
+            "x": -448.84,
+            "y": 509.71
+        },
+        "AISLE_H5_MKT": {
+            "x": -422.06,
+            "y": 570.41
+        },
+        "LOC_DOCK_127": {
+            "x": -440.15,
+            "y": 492.5
+        },
+        "STG_X3": {
+            "x": -384.72,
+            "y": 546.18
+        },
+        "STA_OP120": {
+            "x": -500.7,
+            "y": 511.0
+        },
+        "BYAN_QC": {
+            "x": -544.73,
+            "y": 642.11
+        },
+        "STA_OP080": {
+            "x": -510.5,
+            "y": 511.0
+        },
+        "STA_OP050": {
+            "x": -512.24,
+            "y": 511.0
+        },
+        "STA_OP190": {
+            "x": -475.0,
+            "y": 511.0
+        },
+        "STG_W3": {
+            "x": -391.96,
+            "y": 589.91
+        },
+        "LOC_DOCK_XEXL": {
+            "x": -505.2,
+            "y": 649.48
+        },
+        "STA_OP210": {
+            "x": -470.5,
+            "y": 511.0
+        },
+        "SPUR_BUF_N1": {
+            "x": -448.84,
+            "y": 527.0
+        },
+        "STG_E3": {
+            "x": -521.61,
+            "y": 594.27
+        },
+        "AISLE_OP95_MKT": {
+            "x": -505.5,
+            "y": 545.0
+        },
+        "STA_OP265": {
+            "x": -464.455,
+            "y": 511.0
+        },
+        "STA_OP430": {
+            "x": -452.71,
+            "y": 517.33
+        },
+        "STA_OP020": {
+            "x": -515.93,
+            "y": 511.0
+        },
+        "STA_OP135": {
+            "x": -497.33,
+            "y": 511.0
+        },
+        "STA_OP140": {
+            "x": -495.82,
+            "y": 511.0
+        },
+        "STA_OP300": {
+            "x": -451.9,
+            "y": 511.0
+        },
+        "BAA_MKT": {
+            "x": -388.3,
+            "y": 582.36
+        },
+        "SPUR_LOAD": {
+            "x": -448.84,
+            "y": 523.0
+        }
+    },
+    "edges": [
+        {
+            "source": "SPUR_BUF_S1",
+            "target": "SPUR_LOAD",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP095",
+            "target": "STA_OP100",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP120",
+            "target": "STA_OP140",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP090",
+            "target": "STA_OP100",
+            "bidirectional": true
+        },
+        {
+            "source": "BYAN_QC",
+            "target": "STG_E4",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_ROBOT_UNL",
+            "target": "STA_OP410",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_EMPTIES",
+            "target": "BYAN_QC",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP180",
+            "target": "STA_OP210",
+            "bidirectional": true
+        },
+        {
+            "source": "BYAN_QC",
+            "target": "STA_OP020",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP160",
+            "target": "STA_OP180",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_MKT",
+            "target": "STG_U3",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_EMPTIES",
+            "target": "CMC_INBOUND",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_LOC_STD",
+            "target": "SPUR_BUF_N1",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP190",
+            "target": "STA_OP250",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP020",
+            "target": "STA_OP080",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_LOC_K2K3",
+            "target": "STG_V3",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_REPACK",
+            "target": "STG_E3",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_V3",
+            "target": "STG_X3",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_W3",
+            "target": "STG_X3",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_U3",
+            "target": "STG_W3",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP020",
+            "target": "STA_OP050",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP130",
+            "target": "STA_OP135",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_BUF_S1",
+            "target": "SPUR_DEC_1",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP210",
+            "target": "STA_OP250",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP050",
+            "target": "STA_OP080",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP290",
+            "target": "STA_OP300",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_LOC_K2K3",
+            "target": "AISLE_OP95_MKT",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP190",
+            "target": "STA_OP210",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_ROBOT_UNL",
+            "target": "SPUR_ROBOT_VIS",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP280",
+            "target": "STA_OP300",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP210",
+            "target": "STA_OP265",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_BUF_S1",
+            "target": "STA_OP410",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_BUF_S1",
+            "target": "SPUR_ROBOT_VIS",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_DEC_1",
+            "target": "STA_OP430",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_MKT",
+            "target": "CMC_INBOUND",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP100",
+            "target": "STA_OP130",
+            "bidirectional": true
+        },
+        {
+            "source": "LOC_DOCK_BAAE",
+            "target": "LOC_DOCK_XEXL",
+            "bidirectional": true
+        },
+        {
+            "source": "LOC_DOCK_126",
+            "target": "SPUR_BUF_S1",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_MKT",
+            "target": "STG_W3",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_H5_MKT",
+            "target": "STG_U3",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP100",
+            "target": "STA_OP135",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_E3",
+            "target": "STG_E4",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_LOC_K2K3",
+            "target": "LOC_DOCK_BAAE",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP250",
+            "target": "STA_OP265",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_ROBOT_VIS",
+            "target": "STA_OP300",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_MANUAL_UNL",
+            "target": "STA_OP300",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_OP95_MKT",
+            "target": "BAA_REPACK",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP100",
+            "target": "STA_OP120",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP080",
+            "target": "STA_OP090",
+            "bidirectional": true
+        },
+        {
+            "source": "CMC_INBOUND",
+            "target": "STG_E3",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP280",
+            "target": "STA_OP290",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_H5_MKT",
+            "target": "SPUR_BUF_N1",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_MKT",
+            "target": "BAA_REPACK",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP270",
+            "target": "STA_OP290",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP135",
+            "target": "STA_OP140",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_LOC_STD",
+            "target": "AISLE_OP95_MKT",
+            "bidirectional": true
+        },
+        {
+            "source": "LOC_DOCK_126",
+            "target": "LOC_DOCK_127",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_MANUAL_UNL",
+            "target": "SPUR_ROBOT_UNL",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_EMPTIES",
+            "target": "LOC_DOCK_BAAE",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP270",
+            "target": "STA_OP280",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_V3",
+            "target": "STG_W3",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP120",
+            "target": "STA_OP135",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_OP95_MKT",
+            "target": "STA_OP095",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP090",
+            "target": "STA_OP095",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_BUF_N1",
+            "target": "SPUR_ROBOT_VIS",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_LOC_K2K3",
+            "target": "STG_X3",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_U3",
+            "target": "STG_Y3",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP050",
+            "target": "STA_OP090",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP130",
+            "target": "STA_OP140",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP140",
+            "target": "STA_OP170",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP250",
+            "target": "STA_OP270",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_ROBOT_VIS",
+            "target": "STA_OP290",
+            "bidirectional": true
+        },
+        {
+            "source": "BYAN_QC",
+            "target": "LOC_DOCK_XEXL",
+            "bidirectional": true
+        },
+        {
+            "source": "LOC_DOCK_XEXL",
+            "target": "STG_E4",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_E3",
+            "target": "STG_X3",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_U3",
+            "target": "STG_V3",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP160",
+            "target": "STA_OP170",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP265",
+            "target": "STA_OP270",
+            "bidirectional": true
+        },
+        {
+            "source": "LOC_DOCK_127",
+            "target": "STG_Y3",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_MKT",
+            "target": "STG_Y3",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP080",
+            "target": "STA_OP095",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_EMPTIES",
+            "target": "LOC_DOCK_126",
+            "bidirectional": true
+        },
+        {
+            "source": "LOC_DOCK_126",
+            "target": "LOC_DOCK_XEXL",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP095",
+            "target": "STA_OP120",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_ROBOT_VIS",
+            "target": "STA_OP410",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP410",
+            "target": "STA_OP430",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP120",
+            "target": "STA_OP130",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP170",
+            "target": "STA_OP180",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_REPACK",
+            "target": "STG_E4",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_LOAD",
+            "target": "STA_OP430",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_DEC_1",
+            "target": "SPUR_MANUAL_UNL",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_DEC_1",
+            "target": "SPUR_LOAD",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP300",
+            "target": "STA_OP410",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP265",
+            "target": "STA_OP280",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP140",
+            "target": "STA_OP160",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP180",
+            "target": "STA_OP190",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_H5_MKT",
+            "target": "AISLE_LOC_STD",
+            "bidirectional": true
+        },
+        {
+            "source": "LOC_DOCK_127",
+            "target": "SPUR_BUF_S1",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_BUF_N1",
+            "target": "SPUR_LOAD",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_MANUAL_UNL",
+            "target": "STA_OP430",
+            "bidirectional": true
+        }
+    ]
+}
