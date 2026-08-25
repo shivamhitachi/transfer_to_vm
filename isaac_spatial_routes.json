@@ -1,0 +1,116 @@
+{
+    "AMR": [
+        {
+            "node_id": "STG_Y3",
+            "position": [
+                -382.27,
+                588.74,
+                0.0
+            ]
+        },
+        {
+            "node_id": "BAA_MKT",
+            "position": [
+                -388.3,
+                582.36,
+                0.0
+            ]
+        },
+        {
+            "node_id": "STG_V3",
+            "position": [
+                -393.98,
+                546.28,
+                0.0
+            ]
+        },
+        {
+            "node_id": "STG_X3",
+            "position": [
+                -384.72,
+                546.18,
+                0.0
+            ]
+        },
+        {
+            "node_id": "LOC_DOCK_BAAE",
+            "position": [
+                -401.51,
+                492.54,
+                0.0
+            ]
+        },
+        {
+            "node_id": "SPUR_BUF_S1",
+            "position": [
+                -448.84,
+                505.0,
+                0.0
+            ]
+        },
+        {
+            "node_id": "STA_OP430",
+            "position": [
+                -452.71,
+                517.33,
+                0.0
+            ]
+        },
+        {
+            "node_id": "SPUR_LOAD",
+            "position": [
+                -448.84,
+                523.0,
+                0.0
+            ]
+        },
+        {
+            "node_id": "STG_E4",
+            "position": [
+                -520.56,
+                622.05,
+                0.0
+            ]
+        },
+        {
+            "node_id": "BYAN_QC",
+            "position": [
+                -544.73,
+                642.11,
+                0.0
+            ]
+        },
+        {
+            "node_id": "CMC_INBOUND",
+            "position": [
+                -482.09,
+                604.81,
+                0.0
+            ]
+        },
+        {
+            "node_id": "AISLE_LOC_STD",
+            "position": [
+                -450.0,
+                550.0,
+                0.0
+            ]
+        },
+        {
+            "node_id": "STG_W3",
+            "position": [
+                -391.96,
+                589.91,
+                0.0
+            ]
+        },
+        {
+            "node_id": "STG_Y3",
+            "position": [
+                -382.27,
+                588.74,
+                0.0
+            ]
+        }
+    ]
+}
