@@ -1,0 +1,259 @@
+{
+    "nodes": {
+        "SPUR_MANUAL_UNL": {
+            "x": -448.84,
+            "y": 515.71
+        },
+        "SPUR_ROBOT_VIS": {
+            "x": -448.84,
+            "y": 509.71
+        },
+        "CMC_INBOUND": {
+            "x": -482.09,
+            "y": 604.81
+        },
+        "STG_W3": {
+            "x": -391.96,
+            "y": 589.91
+        },
+        "AISLE_LOC_STD": {
+            "x": -450.0,
+            "y": 550.0
+        },
+        "STG_V3": {
+            "x": -393.98,
+            "y": 546.28
+        },
+        "BAA_REPACK": {
+            "x": -502.5,
+            "y": 565.31
+        },
+        "STG_X3": {
+            "x": -384.72,
+            "y": 546.18
+        },
+        "LOC_DOCK_XEXL": {
+            "x": -505.2,
+            "y": 649.48
+        },
+        "STA_OP020": {
+            "x": -515.93,
+            "y": 511.0
+        },
+        "AISLE_H5_MKT": {
+            "x": -422.06,
+            "y": 570.41
+        },
+        "SPUR_DEC_1": {
+            "x": -448.84,
+            "y": 519.49
+        },
+        "SPUR_BUF_N1": {
+            "x": -448.84,
+            "y": 527.0
+        },
+        "AISLE_LOC_K2K3": {
+            "x": -374.53,
+            "y": 531.55
+        },
+        "AISLE_OP95_MKT": {
+            "x": -505.5,
+            "y": 545.0
+        },
+        "SPUR_ROBOT_UNL": {
+            "x": -446.37,
+            "y": 512.92
+        },
+        "STA_OP430": {
+            "x": -452.71,
+            "y": 517.33
+        },
+        "LOC_DOCK_126": {
+            "x": -432.22,
+            "y": 492.54
+        },
+        "BAA_EMPTIES": {
+            "x": -408.45,
+            "y": 492.54
+        },
+        "STG_E3": {
+            "x": -521.61,
+            "y": 594.27
+        },
+        "LOC_DOCK_BAAE": {
+            "x": -401.51,
+            "y": 492.54
+        },
+        "SPUR_LOAD": {
+            "x": -448.84,
+            "y": 523.0
+        },
+        "STG_Y3": {
+            "x": -382.27,
+            "y": 588.74
+        },
+        "SPUR_BUF_S1": {
+            "x": -448.84,
+            "y": 505.0
+        },
+        "BYAN_QC": {
+            "x": -544.73,
+            "y": 642.11
+        },
+        "BAA_MKT": {
+            "x": -388.3,
+            "y": 582.36
+        },
+        "STG_E4": {
+            "x": -520.56,
+            "y": 622.05
+        }
+    },
+    "edges": [
+        {
+            "source": "STG_E4",
+            "target": "BYAN_QC",
+            "bidirectional": true
+        },
+        {
+            "source": "BYAN_QC",
+            "target": "LOC_DOCK_XEXL",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_E3",
+            "target": "STG_E4",
+            "bidirectional": true
+        },
+        {
+            "source": "CMC_INBOUND",
+            "target": "STG_E4",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_REPACK",
+            "target": "STG_E3",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_REPACK",
+            "target": "CMC_INBOUND",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_OP95_MKT",
+            "target": "BAA_REPACK",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_LOC_STD",
+            "target": "AISLE_OP95_MKT",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_LOC_STD",
+            "target": "AISLE_H5_MKT",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_H5_MKT",
+            "target": "STG_W3",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_W3",
+            "target": "STG_Y3",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_Y3",
+            "target": "BAA_MKT",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_MKT",
+            "target": "STG_W3",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_LOC_STD",
+            "target": "STG_V3",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_V3",
+            "target": "STG_X3",
+            "bidirectional": true
+        },
+        {
+            "source": "STG_X3",
+            "target": "AISLE_LOC_K2K3",
+            "bidirectional": true
+        },
+        {
+            "source": "AISLE_LOC_K2K3",
+            "target": "LOC_DOCK_BAAE",
+            "bidirectional": true
+        },
+        {
+            "source": "LOC_DOCK_BAAE",
+            "target": "BAA_EMPTIES",
+            "bidirectional": true
+        },
+        {
+            "source": "BAA_EMPTIES",
+            "target": "LOC_DOCK_126",
+            "bidirectional": true
+        },
+        {
+            "source": "LOC_DOCK_126",
+            "target": "SPUR_BUF_S1",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP020",
+            "target": "SPUR_BUF_S1",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_BUF_S1",
+            "target": "SPUR_ROBOT_VIS",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_ROBOT_VIS",
+            "target": "SPUR_ROBOT_UNL",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_ROBOT_UNL",
+            "target": "SPUR_MANUAL_UNL",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_MANUAL_UNL",
+            "target": "STA_OP430",
+            "bidirectional": true
+        },
+        {
+            "source": "STA_OP430",
+            "target": "SPUR_DEC_1",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_DEC_1",
+            "target": "SPUR_LOAD",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_LOAD",
+            "target": "SPUR_BUF_N1",
+            "bidirectional": true
+        },
+        {
+            "source": "SPUR_BUF_N1",
+            "target": "AISLE_LOC_STD",
+            "bidirectional": true
+        }
+    ]
+}
