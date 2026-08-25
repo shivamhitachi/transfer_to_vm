@@ -1,0 +1,316 @@
+{
+    "schema_version": "1.0",
+    "coordinate_system": {
+        "source_unit": "meters",
+        "target_unit": "meters",
+        "axis_mapping": "x_to_X_y_to_Y_z_up",
+        "z_value_in_route": 0.0
+    },
+    "vehicles": [
+        {
+            "vehicle_id": "AMR_Home_1",
+            "vehicle_type": "AMR",
+            "parking_node": "STG_Y3",
+            "optimized_stops": [
+                "STG_Y3",
+                "BAA_MKT",
+                "STG_V3",
+                "STG_X3",
+                "LOC_DOCK_BAAE",
+                "SPUR_BUF_S1",
+                "STA_OP430",
+                "SPUR_LOAD",
+                "STG_E4",
+                "BYAN_QC",
+                "CMC_INBOUND",
+                "AISLE_LOC_STD",
+                "STG_W3",
+                "STG_Y3"
+            ],
+            "expanded_waypoints": [
+                {
+                    "node_id": "STG_Y3",
+                    "position": [
+                        -382.27,
+                        588.74,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "BAA_MKT",
+                    "position": [
+                        -388.3,
+                        582.36,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "STG_W3",
+                    "position": [
+                        -391.96,
+                        589.91,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "AISLE_H5_MKT",
+                    "position": [
+                        -422.06,
+                        570.41,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "AISLE_LOC_STD",
+                    "position": [
+                        -450.0,
+                        550.0,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "STG_V3",
+                    "position": [
+                        -393.98,
+                        546.28,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "STG_X3",
+                    "position": [
+                        -384.72,
+                        546.18,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "AISLE_LOC_K2K3",
+                    "position": [
+                        -374.53,
+                        531.55,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "LOC_DOCK_BAAE",
+                    "position": [
+                        -401.51,
+                        492.54,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "BAA_EMPTIES",
+                    "position": [
+                        -408.45,
+                        492.54,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "LOC_DOCK_126",
+                    "position": [
+                        -432.22,
+                        492.54,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "SPUR_BUF_S1",
+                    "position": [
+                        -448.84,
+                        505.0,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "SPUR_ROBOT_VIS",
+                    "position": [
+                        -448.84,
+                        509.71,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "SPUR_ROBOT_UNL",
+                    "position": [
+                        -446.37,
+                        512.92,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "SPUR_MANUAL_UNL",
+                    "position": [
+                        -448.84,
+                        515.71,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "STA_OP430",
+                    "position": [
+                        -452.71,
+                        517.33,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "SPUR_DEC_1",
+                    "position": [
+                        -448.84,
+                        519.49,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "SPUR_LOAD",
+                    "position": [
+                        -448.84,
+                        523.0,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "SPUR_BUF_N1",
+                    "position": [
+                        -448.84,
+                        527.0,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "AISLE_LOC_STD",
+                    "position": [
+                        -450.0,
+                        550.0,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "AISLE_OP95_MKT",
+                    "position": [
+                        -505.5,
+                        545.0,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "BAA_REPACK",
+                    "position": [
+                        -502.5,
+                        565.31,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "STG_E3",
+                    "position": [
+                        -521.61,
+                        594.27,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "STG_E4",
+                    "position": [
+                        -520.56,
+                        622.05,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "BYAN_QC",
+                    "position": [
+                        -544.73,
+                        642.11,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "STG_E4",
+                    "position": [
+                        -520.56,
+                        622.05,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "CMC_INBOUND",
+                    "position": [
+                        -482.09,
+                        604.81,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "BAA_REPACK",
+                    "position": [
+                        -502.5,
+                        565.31,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "AISLE_OP95_MKT",
+                    "position": [
+                        -505.5,
+                        545.0,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "AISLE_LOC_STD",
+                    "position": [
+                        -450.0,
+                        550.0,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "AISLE_H5_MKT",
+                    "position": [
+                        -422.06,
+                        570.41,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "STG_W3",
+                    "position": [
+                        -391.96,
+                        589.91,
+                        0.0
+                    ]
+                },
+                {
+                    "node_id": "STG_Y3",
+                    "position": [
+                        -382.27,
+                        588.74,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "vehicle_id": "Forklift_Home_2",
+            "vehicle_type": "Forklift",
+            "parking_node": "LOC_DOCK_XEXL",
+            "optimized_stops": [
+                "LOC_DOCK_XEXL"
+            ],
+            "expanded_waypoints": [
+                {
+                    "node_id": "LOC_DOCK_XEXL",
+                    "position": [
+                        -505.2,
+                        649.48,
+                        0.0
+                    ]
+                }
+            ]
+        }
+    ]
+}
